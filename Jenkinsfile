@@ -7,10 +7,10 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         sh '''#!/bin/bash
-npm install'''
+npm run build'''
       }
     }
 
