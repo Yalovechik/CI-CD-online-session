@@ -7,6 +7,13 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        sh '''#!/bin/bash
+npm install'''
+      }
+    }
+
   }
   environment {
     registry = 'yalovechik/test'
