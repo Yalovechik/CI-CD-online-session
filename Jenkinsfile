@@ -10,7 +10,7 @@ pipeline {
     stage('error') {
       steps {
         sh '''#!/bin/bash
-npm run build'''
+npm install '''
       }
     }
 
